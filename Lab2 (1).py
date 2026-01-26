@@ -1,3 +1,5 @@
+#P . Jayavardhan chowdary
+#Bl.sc.u4aie24064
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -122,3 +124,4 @@ def main():
     print("\nA9 Normalized Data Sample\n",thyroid.head())
 
 main()
+
