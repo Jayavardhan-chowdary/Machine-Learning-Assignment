@@ -1,3 +1,5 @@
+# BL.SC.U4AIE24064
+# P Jayavardhan Chowdary
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
@@ -169,3 +171,4 @@ cm_test, acc_test, prec_test, rec_test, f1_test = confusion_metrics(y_test, pred
 #A14
 inv_preds = matrix_inversion_classifier(X_train, y_train, X_test)
 cm_inv, acc_inv, prec_inv, rec_inv, f1_inv = confusion_metrics(y_test, inv_preds)
+
